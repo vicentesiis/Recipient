@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220F066E22A101620072FF18 /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 220F066D22A101620072FF18 /* Receipt.m */; };
+		22B92E692297A0DB0049558B /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B92E682297A0DB0049558B /* MainTableViewCell.m */; };
+		22B92E6B2297B25B0049558B /* RestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B92E6A2297B25B0049558B /* RestApi.m */; };
 		22EA4C552294F68C00DDE24A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA4C542294F68C00DDE24A /* AppDelegate.m */; };
-		22EA4C582294F68C00DDE24A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA4C572294F68C00DDE24A /* ViewController.m */; };
+		22EA4C582294F68C00DDE24A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA4C572294F68C00DDE24A /* MainViewController.m */; };
 		22EA4C5B2294F68C00DDE24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EA4C592294F68C00DDE24A /* Main.storyboard */; };
 		22EA4C5D2294F68D00DDE24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EA4C5C2294F68D00DDE24A /* Assets.xcassets */; };
 		22EA4C602294F68D00DDE24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EA4C5E2294F68D00DDE24A /* LaunchScreen.storyboard */; };
 		22EA4C632294F68D00DDE24A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA4C622294F68D00DDE24A /* main.m */; };
 		22EA4C6D2294F68E00DDE24A /* receiptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA4C6C2294F68E00DDE24A /* receiptTests.m */; };
 		22EA4C782294F68E00DDE24A /* receiptUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA4C772294F68E00DDE24A /* receiptUITests.m */; };
+		67D3792810E89E38563B65C1 /* Pods_receipt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4BBD759E447918BCBA0DF7 /* Pods_receipt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220F066D22A101620072FF18 /* Receipt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
+		220F066F22A101720072FF18 /* Receipt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
+		22B92E672297A0DB0049558B /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		22B92E682297A0DB0049558B /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		22B92E6A2297B25B0049558B /* RestApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestApi.m; sourceTree = "<group>"; };
+		22B92E6C2297B2730049558B /* RestApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestApi.h; sourceTree = "<group>"; };
 		22EA4C502294F68C00DDE24A /* receipt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = receipt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EA4C532294F68C00DDE24A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22EA4C542294F68C00DDE24A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		22EA4C562294F68C00DDE24A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		22EA4C572294F68C00DDE24A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22EA4C562294F68C00DDE24A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		22EA4C572294F68C00DDE24A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		22EA4C5A2294F68C00DDE24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22EA4C5C2294F68D00DDE24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22EA4C5F2294F68D00DDE24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,9 @@
 		22EA4C732294F68E00DDE24A /* receiptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = receiptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22EA4C772294F68E00DDE24A /* receiptUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = receiptUITests.m; sourceTree = "<group>"; };
 		22EA4C792294F68E00DDE24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4B4A78B1F7B346DB8EA3B1 /* Pods-receipt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-receipt.release.xcconfig"; path = "Pods/Target Support Files/Pods-receipt/Pods-receipt.release.xcconfig"; sourceTree = "<group>"; };
+		2F4BBD759E447918BCBA0DF7 /* Pods_receipt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_receipt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A541A9CC6BDAF8EE8B3680B /* Pods-receipt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-receipt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-receipt/Pods-receipt.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D3792810E89E38563B65C1 /* Pods_receipt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220F066C22A101430072FF18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22B92E6D2297B2790049558B /* Receipt */ = {
+			isa = PBXGroup;
+			children = (
+				220F066D22A101620072FF18 /* Receipt.m */,
+				220F066F22A101720072FF18 /* Receipt.h */,
+			);
+			path = Receipt;
+			sourceTree = "<group>";
+		};
 		22EA4C472294F68C00DDE24A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				22EA4C6B2294F68E00DDE24A /* receiptTests */,
 				22EA4C762294F68E00DDE24A /* receiptUITests */,
 				22EA4C512294F68C00DDE24A /* Products */,
+				F9C3C119B0CCBDFEA9EF9A8E /* Pods */,
+				8AFF45E8D5B6CFEF63BF4C0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +133,11 @@
 		22EA4C522294F68C00DDE24A /* receipt */ = {
 			isa = PBXGroup;
 			children = (
+				220F066C22A101430072FF18 /* Models */,
+				22F10762229789D8004231C4 /* RestApi */,
+				22F10763229789EE004231C4 /* Screens */,
 				22EA4C532294F68C00DDE24A /* AppDelegate.h */,
 				22EA4C542294F68C00DDE24A /* AppDelegate.m */,
-				22EA4C562294F68C00DDE24A /* ViewController.h */,
-				22EA4C572294F68C00DDE24A /* ViewController.m */,
-				22EA4C592294F68C00DDE24A /* Main.storyboard */,
 				22EA4C5C2294F68D00DDE24A /* Assets.xcassets */,
 				22EA4C5E2294F68D00DDE24A /* LaunchScreen.storyboard */,
 				22EA4C612294F68D00DDE24A /* Info.plist */,
@@ -132,6 +164,53 @@
 			path = receiptUITests;
 			sourceTree = "<group>";
 		};
+		22F10762229789D8004231C4 /* RestApi */ = {
+			isa = PBXGroup;
+			children = (
+				22B92E6C2297B2730049558B /* RestApi.h */,
+				22B92E6A2297B25B0049558B /* RestApi.m */,
+				22B92E6D2297B2790049558B /* Receipt */,
+			);
+			path = RestApi;
+			sourceTree = "<group>";
+		};
+		22F10763229789EE004231C4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				22F1076422978BB7004231C4 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		22F1076422978BB7004231C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				22EA4C562294F68C00DDE24A /* MainViewController.h */,
+				22EA4C572294F68C00DDE24A /* MainViewController.m */,
+				22B92E672297A0DB0049558B /* MainTableViewCell.h */,
+				22B92E682297A0DB0049558B /* MainTableViewCell.m */,
+				22EA4C592294F68C00DDE24A /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8AFF45E8D5B6CFEF63BF4C0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BBD759E447918BCBA0DF7 /* Pods_receipt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9C3C119B0CCBDFEA9EF9A8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A541A9CC6BDAF8EE8B3680B /* Pods-receipt.debug.xcconfig */,
+				2F4B4A78B1F7B346DB8EA3B1 /* Pods-receipt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22EA4C7C2294F68E00DDE24A /* Build configuration list for PBXNativeTarget "receipt" */;
 			buildPhases = (
+				B0257D2B4234F9BDE8BB4269 /* [CP] Check Pods Manifest.lock */,
 				22EA4C4C2294F68C00DDE24A /* Sources */,
 				22EA4C4D2294F68C00DDE24A /* Frameworks */,
 				22EA4C4E2294F68C00DDE24A /* Resources */,
+				23334E20FDC8D47B1342A6C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,14 +338,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23334E20FDC8D47B1342A6C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-receipt/Pods-receipt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-receipt/Pods-receipt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0257D2B4234F9BDE8BB4269 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-receipt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22EA4C4C2294F68C00DDE24A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22EA4C582294F68C00DDE24A /* ViewController.m in Sources */,
+				22EA4C582294F68C00DDE24A /* MainViewController.m in Sources */,
 				22EA4C632294F68D00DDE24A /* main.m in Sources */,
+				22B92E692297A0DB0049558B /* MainTableViewCell.m in Sources */,
+				220F066E22A101620072FF18 /* Receipt.m in Sources */,
 				22EA4C552294F68C00DDE24A /* AppDelegate.m in Sources */,
+				22B92E6B2297B25B0049558B /* RestApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +564,7 @@
 		};
 		22EA4C7D2294F68E00DDE24A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A541A9CC6BDAF8EE8B3680B /* Pods-receipt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +581,7 @@
 		};
 		22EA4C7E2294F68E00DDE24A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4B4A78B1F7B346DB8EA3B1 /* Pods-receipt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
